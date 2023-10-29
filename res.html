@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="res.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,500;1,100;1,400;1,700&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="testbox">
+        <form action="/">
+          <div class="banner">
+            <h1>OTOAMA Reservation</h1>
+          </div>
+          <div class="item">
+            <label for="name">Name of the Driver<span>*</span></label>
+            <input id="name" type="text" name="name" placeholder="Name of the Driver" required/>
+          </div>
+          <div class="item">
+            <label for="email">Email Address<span>*</span></label>
+            <input id="email" type="email" name="email" placeholder="Email Address" required/>
+          </div>
+          <div class="item">
+            <label for="type">Type of the Car <span>*</span></label>
+            <input id="type" type="text" name="type" placeholder="Type of the Car" required/>
+          </div>
+          <div class="item">
+            <label for="Owner">The Owner<span>*</span></label>
+            <input id="Owner" type="text" name="Owner" placeholder="Owner" required/>
+          </div>
+          <div class="item">
+            <label for="plate">Registration NO:<span>*</span></label>
+            <input id="plate" type="text" name="plate" placeholder="Registration NO:" required/>
+          </div>
+          <div class="item">
+            <label for="phone">Phone<span>*</span></label>
+            <input id="phone" type="number" placeholder="(XXX) XXX-XXXX"  name="phone" required/>
+          </div>
+        <div class="item">
+            <label for="instructions">Special Instructions</label>
+            <textarea id="instructions" rows="3"></textarea>
+          </div>
+          
+          <div class="btn-block">
+            <button type="submit" href="recipt.html" class="btn" >Submit</button>
+          </div>
+        </form>
+      </div>
+      <div class="receipt">
+        <form action="receipt">
+              
+        </form>
+      </div>
+</body>
+</html>

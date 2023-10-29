@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.navbar {
+    overflow: hidden;
+    background: radial-gradient(circle, #21435a,indigo,  #8d3063);
+}
+.navbar img {
+    float: left;
+    padding: 10px;
+    max-height: 80px; 
+}
+.navbar-center {
+    text-align: center;
+    line-height: 10px; /
+}
+.navbar-center h2{
+    text-decoration: wavy;
+    cursor: pointer;
+    transition: font-size 0.03s ease;
+    font-size: 35px;
+    color: cadetblue;
+}
+.navbar-center h2:hover{
+    font-size: 40px;
+}
+.navbar-right {
+    float: right;
+    padding: 10px;
+}
+.profile img{
+    width: 2cm;
+    height: 2cm;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.profile a{
+    text-decoration: none;
+    color: #3498db;
+}
+.profile a:hover{
+    color: #7d11c5;
+    text-decoration: none;
+}
+.primea{
+    width: 90%;
+    height: 80%;
+    border: 2px solid peru;
+    margin: 70px;
+    display: flex;
+    background: radial-gradient(circle, #3498db,indigo,  #c0392b);
+}
+.prime1, .prime2{
+    padding: 40px;
+    text-align: center;
+}
+.prime1 h1{
+    font-family: 'Poppins', sans-serif;
+    color: aqua;
+    font-weight: 900;
+}
+.prime1 p{
+    color: #c0392b;
+}
+.prime h3{
+    color: aquamarine;
+}
+.prime2 h1{
+    color: aqua;
+}
+.prime2 h3{
+    color: #a39494;
+}
+.end{
+    width: 95%;
+    height: 80%;
+    border: 2px solid rgb(35, 156, 106);
+    margin: 30px;
+    position: relative;
+    text-align: center;
+    background: linear-gradient(to bottom, #3498db, #c0392b); 
+}
+.media{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.media li{
+    margin-right: 10px;
+
+}
+.media  a{
+   text-decoration: none;
+}
+.icon{
+    width: 30px;
+    height: 30px;
+   
+}
